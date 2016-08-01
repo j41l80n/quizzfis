@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_tela_multyplayer_resultado_640x360">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:background="@drawable/pergunta_640x360"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="25dp" />
+            <EditText
+                android:layout_marginTop="15dp"
+                android:textColor="@color/preto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_editar_pergunta" />
+
+            <TextView
+                android:textColor="@color/branco"
+                android:text="Resposta"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:textColor="@color/amarelo_ouro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_editar_resposta" />
+
+            <TextView
+                android:textColor="@color/branco"
+                android:text="@string/assertiva_a"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:textColor="@color/preto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_editar_opcao_a" />
+
+            <TextView
+                android:textColor="@color/branco"
+                android:text="@string/assertiva_b"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:textColor="@color/preto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_editar_opcao_b" />
+
+            <TextView
+                android:textColor="@color/branco"
+                android:text="@string/assertiva_c"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:textColor="@color/preto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_editar_opcao_c" />
+
+            <TextView
+                android:textColor="@color/branco"
+                android:text="@string/assertiva_d"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:textColor="@color/preto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_editar_opcao_d" />
+            <TextView
+                android:textColor="@color/branco"
+                android:text="Nivel"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:textColor="@color/preto"
+                android:digits="012"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_editar_nivel_pergunta" />
+            <Button
+                android:textColor="@color/branco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bt_personalizado_atualizar_pergunta_640x360"
+                android:id="@+id/bt_atualizar_pergunta"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

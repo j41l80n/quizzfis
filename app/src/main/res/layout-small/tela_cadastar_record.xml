@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_tela_cadastrar_record_640x360"
+    android:focusable="true">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite seu nome"
+        android:padding="25dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/branco" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_nome_jogador"
+        android:hint="Ex.: Maria"
+        android:maxLength="10"
+        />
+    <Button
+        android:background="@drawable/bt_personalizado_cadastar_recordes_640x360"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_cadastra_recorde" />
+
+</LinearLayout>

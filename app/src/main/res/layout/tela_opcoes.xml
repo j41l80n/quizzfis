@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_principal_tela_opcoes"
+    android:background="@drawable/bg_tela_opcoes_960x360"
+    tools:context=".TelaOpcoes" >
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="110dp"
+            android:id="@+id/rg_niveis_dificuldade" >
+            <RadioButton
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb_dificuldade_normal"
+                android:button="@drawable/rb_personalizado_dificuldade_960x540"
+                android:text="Normal"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/branco"
+                android:textStyle="bold" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/branco"
+                android:id="@+id/rb_dificuldade_survivor"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:button="@drawable/rb_personalizado_dificuldade_960x540"
+                android:text="Survivor"
+                android:textStyle="bold" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/branco"
+                android:id="@+id/rb_dificuldade_multiplayer"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:button="@drawable/rb_personalizado_dificuldade_960x540"
+                android:text="Multiplayer"
+                android:textStyle="bold" />
+        </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp" >
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bt_personalizado_recordes_960x540"
+            android:textOn=" "
+            android:textOff=" "
+            android:id="@+id/tb_recordes" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_editar"
+            android:background="@drawable/bt_personalizado_editar_questoes_960x540" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sv_recordes" >
+        <TableLayout
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="0, 1, 2, 3"
+            android:id="@+id/tl_recordes" >
+            <TableRow>
+                <TextView
+                    android:gravity="center"
+                    android:text="Jogador" />
+                <TextView
+                    android:gravity="center"
+                    android:text="Pontuação" />
+                <TextView
+                    android:text="Data"
+                    android:gravity="center" />
+                <TextView
+                    android:gravity="center"
+                    android:text="Nível " />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

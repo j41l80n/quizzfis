@@ -1,0 +1,114 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/rl_principal"
+    android:background="@drawable/bg_tela_perguntas_vazio"
+    android:orientation="vertical" >
+    <TextView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="35dp"
+        android:id="@+id/tela_quiz_tv_pergunta"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <ScrollView
+        android:visibility="gone"
+        android:id="@+id/sv_quis"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_above="@+id/ll_amostragem"
+        android:scrollbars="none"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/tela_quiz_tv_pergunta"
+        android:layout_width="match_parent" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg_quiz"
+                android:layout_gravity="center"
+                android:paddingBottom="10dp" >
+                <RadioButton
+                    android:textColor="@color/branco"
+                    android:button="@drawable/rb_personalizado_acertivas_640x360"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/rb_01"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                <RadioButton
+                    android:textColor="@color/branco"
+                    android:button="@drawable/rb_personalizado_acertivas_640x360"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/rb_02" />
+                <RadioButton
+                    android:textColor="@color/branco"
+                    android:button="@drawable/rb_personalizado_acertivas_640x360"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/rb_03" />
+                <RadioButton
+                    android:textColor="@color/branco"
+                    android:button="@drawable/rb_personalizado_acertivas_640x360"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/rb_04" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/ll_amostragem"
+        android:background="@color/branco"
+        android:orientation="horizontal" >
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_rodada" />
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_player" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tv_pontuacao"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:gravity="center"
+            android:textColor="@color/branco"
+            android:background="@drawable/bg_cronometro_640x360"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:gravity="center"
+            android:textColor="@color/branco"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_contagem_regressiva"
+            android:background="@drawable/bg_cronometro_640x360" />
+        <Button
+            android:id="@+id/bt_pular"
+            android:layout_width="100dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="@drawable/bg_cronometro_640x360"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

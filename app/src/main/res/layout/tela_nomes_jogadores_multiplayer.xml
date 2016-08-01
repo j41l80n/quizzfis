@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_tela_multyplayer_resultado_640x360" >
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Jogador 1"
+        android:textColor="@color/branco"
+        android:layout_gravity="center"
+        android:id="@+id/tv_estudant1" />
+    <EditText
+        android:id="@+id/et_estudant1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ex.: Eustacio"
+        android:padding="10dp" />
+    <TextView
+        android:layout_gravity="center"
+        android:textColor="@color/branco"
+        android:paddingTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Jogador 2"
+        android:id="@+id/tv_estudant2" />
+    <EditText
+        android:id="@+id/et_estudant2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ex.: Muriel"
+        android:padding="10dp" />
+    <TextView
+        android:layout_gravity="center"
+        android:textColor="@color/branco"
+        android:paddingTop="15dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/tv_quantidade_jogadas"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Quantidade de jogadas"/>
+    <RadioGroup
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/rg_quantidade_jogadas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:checked="true"
+            android:button="@drawable/rb_personalizado_acertivas_640x360"
+            android:layout_width="fill_parent"
+            android:text="3"
+            android:layout_height="match_parent"
+            android:id="@+id/rb_quantidades_partidas_03"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        <RadioButton
+            android:text="5"
+            android:button="@drawable/rb_personalizado_acertivas_640x360"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/rb_quantidades_partidas_05"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        <RadioButton
+            android:text="7"
+            android:button="@drawable/rb_personalizado_acertivas_640x360"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/rb_quantidades_partidas_07"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </RadioGroup>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="iniciar"
+        android:id="@+id/bt_iniciar_multiplayer"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

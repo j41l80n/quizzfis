@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/branco" >
+
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rb_pergunta_quiz"
+        android:button="@drawable/ic_calculo_energia_pressed"
+        android:paddingTop="20dp"
+        android:paddingBottom="40dp"
+        android:clickable="false"
+        android:enabled="false"
+        android:typeface="sans"
+        android:textStyle="normal"
+        android:layout_gravity="right" />
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_quiz"
+        android:layout_gravity="center"
+        android:paddingBottom="0dp" >
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_01" >
+        </RadioButton>
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_02" >
+        </RadioButton>
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_03" >
+        </RadioButton>
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_04" >
+        </RadioButton>
+
+    </RadioGroup>
+</LinearLayout>

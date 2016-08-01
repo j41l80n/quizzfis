@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rl_tela_conheca_sua_conta">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/iv_conta_de_luz"
+        android:src="@drawable/contadeluz"
+        android:adjustViewBounds="true" />
+
+    <RadioGroup
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/rg_botoes"
+        android:gravity="top|left|center_vertical|start|end"
+        android:measureWithLargestChild="false">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/radioButton"
+            android:layout_marginLeft="120px"
+            android:layout_marginTop="10px"
+            android:textColor="@color/preto"
+            android:button="@drawable/radiobutton_personalizado_tela_conheca_sua_conta"
+            android:singleLine="false"
+            android:focusable="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton2"
+            android:layout_marginLeft="120px"
+            android:layout_marginTop="45px"
+            android:textColor="@color/preto"
+            android:button="@drawable/radiobutton_personalizado_tela_conheca_sua_conta"
+            />
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton3"
+            android:layout_marginLeft="165px"
+            android:layout_marginTop="-40px"
+            android:textColor="@color/preto"
+            android:button="@drawable/radiobutton_personalizado_tela_conheca_sua_conta"
+            />
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton4"
+            android:layout_marginLeft="65px"
+            android:layout_marginTop="-13px"
+            android:textColor="@color/preto"
+            android:button="@drawable/radiobutton_personalizado_tela_conheca_sua_conta"
+            />
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton5"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="25px"
+            android:textColor="@color/preto"
+            android:button="@drawable/radiobutton_personalizado_tela_conheca_sua_conta"
+            />
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton6"
+            android:layout_marginLeft="115px"
+            android:layout_marginTop="10px"
+            android:textColor="@color/preto"
+            android:button="@drawable/radiobutton_personalizado_tela_conheca_sua_conta"
+            />
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton7"
+            android:layout_marginLeft="213px"
+            android:layout_marginTop="115px"
+            android:textColor="@color/preto"
+            android:button="@drawable/radiobutton_personalizado_tela_conheca_sua_conta"
+            />
+    </RadioGroup>
+    </RelativeLayout>
+
+</FrameLayout>

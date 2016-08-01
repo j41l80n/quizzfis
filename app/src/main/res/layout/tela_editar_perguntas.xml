@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_tela_multyplayer_resultado_960x540" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/amarelo_ouro" >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="0,"
+            android:id="@+id/tl_recordes" >
+            <TableRow>
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="teste"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/branco"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_total_perguntas_cadastradas"/>
+                <Button
+                    android:background="@drawable/bt_personalizado_nova_pergunta_640x360"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bt_cadastra_nova_pergunta"
+                    />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_perguntas"
+        android:smoothScrollbar="true"
+        android:fastScrollEnabled="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:divider="@color/azul_escuro"
+        android:dividerHeight="0.5sp" />
+
+</LinearLayout>

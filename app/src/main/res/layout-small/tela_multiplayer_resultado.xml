@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_tela_multyplayer_resultado_640x360">
+    <ImageView
+        android:layout_marginTop="-15dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_resultado_multiplayer"
+        android:background="@drawable/bg_miltyplayer_empate_640x360"
+        />
+    <TableLayout
+        android:layout_marginTop="-15dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/tl_recordes"
+        >
+    <TableRow
+        android:gravity="center" >
+        <TextView
+            android:textColor="@color/branco"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/player1"
+            android:background="@drawable/bg_resultado_individual"/>
+
+        <TextView
+            android:textColor="@color/branco"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:id="@+id/player2"
+            android:background="@drawable/bg_resultado_individual"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

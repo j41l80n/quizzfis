@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuizzFis: jogando e aprendendo</string>
+    <string name="assertiva_a">Assertiva A</string>
+    <string name="assertiva_b">Assertiva B</string>
+    <string name="assertiva_c">Assertiva C</string>
+    <string name="assertiva_d">Assertiva D</string>
+</resources>
