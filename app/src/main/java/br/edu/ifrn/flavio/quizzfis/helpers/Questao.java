@@ -1,4 +1,4 @@
-package br.edu.ifrn.flavio.quizzfis;
+package br.edu.ifrn.flavio.quizzfis.helpers;
 
 import java.util.ArrayList;
 import java.util.Collections;

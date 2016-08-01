@@ -1,4 +1,4 @@
-package br.edu.ifrn.flavio.quizzfis;
+package br.edu.ifrn.flavio.quizzfis.activities;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -23,6 +23,8 @@ import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
+
+import br.edu.ifrn.flavio.quizzfis.R;
 
 public class TelaOpcoes extends Activity
 {

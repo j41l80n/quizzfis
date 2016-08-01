@@ -1,4 +1,4 @@
-package br.edu.ifrn.flavio.quizzfis;
+package br.edu.ifrn.flavio.quizzfis.activities;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -14,6 +14,10 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import java.util.List;
+
+import br.edu.ifrn.flavio.quizzfis.R;
+import br.edu.ifrn.flavio.quizzfis.helpers.BancoDadosPerguntas;
+import br.edu.ifrn.flavio.quizzfis.helpers.Questao;
 
 public class MyActivity extends Activity
 {

@@ -1,4 +1,4 @@
-package br.edu.ifrn.flavio.quizzfis;
+package br.edu.ifrn.flavio.quizzfis.activities;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -9,6 +9,8 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import br.edu.ifrn.flavio.quizzfis.R;
 
 public class TelaMultiplayerResultado extends Activity
 {

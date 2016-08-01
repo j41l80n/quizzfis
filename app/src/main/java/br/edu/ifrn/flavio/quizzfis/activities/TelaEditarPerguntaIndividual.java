@@ -1,4 +1,4 @@
-package br.edu.ifrn.flavio.quizzfis;
+package br.edu.ifrn.flavio.quizzfis.activities;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -12,6 +12,8 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
+
+import br.edu.ifrn.flavio.quizzfis.R;
 
 public class TelaEditarPerguntaIndividual extends Activity
 {

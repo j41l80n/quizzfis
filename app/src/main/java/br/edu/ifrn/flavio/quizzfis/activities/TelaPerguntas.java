@@ -1,4 +1,4 @@
-package br.edu.ifrn.flavio.quizzfis;
+package br.edu.ifrn.flavio.quizzfis.activities;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -26,6 +26,10 @@ import android.widget.Toast;
 
 import java.util.Collections;
 import java.util.List;
+
+import br.edu.ifrn.flavio.quizzfis.R;
+import br.edu.ifrn.flavio.quizzfis.helpers.BancoDadosPerguntas;
+import br.edu.ifrn.flavio.quizzfis.helpers.Questao;
 
 public class TelaPerguntas extends Activity
 {

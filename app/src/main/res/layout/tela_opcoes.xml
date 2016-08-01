@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:id="@+id/ll_principal_tela_opcoes"
     android:background="@drawable/bg_tela_opcoes_960x360"
-    tools:context=".TelaOpcoes" >
+    tools:context=".activities.TelaOpcoes" >
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

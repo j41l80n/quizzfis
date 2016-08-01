@@ -1,4 +1,4 @@
-package br.edu.ifrn.flavio.quizzfis;
+package br.edu.ifrn.flavio.quizzfis.helpers;
 
 import android.content.ContentValues;
 import android.content.Context;
